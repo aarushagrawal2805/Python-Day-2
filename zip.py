@@ -1,6 +1,8 @@
 #Concatenate two lists index-wise
 list1 = ["M", "na", "i", "Ke"] 
 list2 = ["y", "me", "s", "lly"]
+for i,j in enumerate(list1):
+    print("Indexing of Nested List",i,j) #i=index #j=value
 list3 = []
 #zip()it joins two lists
 #i+j it add to same pair
